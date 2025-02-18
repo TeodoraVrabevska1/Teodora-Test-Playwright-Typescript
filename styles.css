@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: #cd87d8
+}
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+main h1 {
+    text-align: center;
+}
+
+main .description p {
+    width: 500px;
+}
+
+main .image-container omg {
+    width: 150px;
+    height: 150px;
+}
+
+main section {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: aqua;
+}
