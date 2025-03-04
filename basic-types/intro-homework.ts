@@ -3,8 +3,8 @@
 // Step 2: Declare a variable `isEven` and use a logical expression to check if `num` is even.
 // Step 3: Log the result
 
-let num: number = 1;
-let isEven: boolean = (num % 2 === 0 );
+let number1: number = 1;
+let isEven: boolean = num % 2 === 0;
 console.log(isEven);
 
 // Exercise 2: Check if a string has more than 10 characters
@@ -21,7 +21,7 @@ console.log(isLong);
 // Step 2: Declare a variable `isPositive` and check if `number` is greater than 0.
 // Step 3: Log the result
 
-let number = -5;
+let number2 = -5;
 let isPositive = number > 0;
 console.log(isPositive);
 
@@ -30,7 +30,7 @@ console.log(isPositive);
 // Step 2: Declare a variable `isNonPositive` and check if `numCheck` is less than or equal to 0.
 // Step 3: Log the result
 
-let numCheck = -1
+let numCheck = -1;
 let isNonPositive = numCheck <= 0;
 console.log(isNonPositive);
 
@@ -49,7 +49,7 @@ console.log(isEmpty);
 // Step 3: Log the result
 
 let rangeNumber = 3;
-let isInRange = rangeNumber >= 10 && rangeNumber <=100;
+let isInRange = rangeNumber >= 10 && rangeNumber <= 100;
 console.log(isInRange);
 
 // Exercise 7: Check if a number is either 0 or 100
@@ -61,7 +61,6 @@ let specialNumber = 17;
 let isZeroOrHundred = specialNumber === 0 || specialNumber === 100;
 console.log(isZeroOrHundred);
 
-
 // Exercise 8: Verify if a boolean value is true
 // Step 1: Declare a variable `flag` and assign a boolean value.
 // Step 2: Declare a variable `isTrue` and check if `flag` is true.
@@ -71,14 +70,13 @@ let flag = true;
 let isTrue = flag === true;
 console.log(isTrue);
 
-
 // Exercise 9: Check if a number is odd and greater than 50
 // Step 1: Declare a variable `oddCheck` and assign any number to it.
 // Step 2: Declare a variable `isOddAndLarge` and check if `oddCheck` is odd and greater than 50.
 // Step 3: Log the result
 
 let oddCheck = 78;
-let isOddAndLarge = oddCheck % 2 !== 0 && oddCheck >50;
+let isOddAndLarge = oddCheck % 2 !== 0 && oddCheck > 50;
 console.log(isOddAndLarge);
 
 // Exercise 10: Determine if a string starts with the letter 'A'
