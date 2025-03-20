@@ -1,0 +1,22 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeodoraVrabevska1/Teodora-Test-Playwright-Typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeodoraVrabevska1/Teodora-Test-Playwright-Typescript/issues"
+  },
+  "homepage": "https://github.com/TeodoraVrabevska1/Teodora-Test-Playwright-Typescript#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.10"
+  }
+}
